@@ -1,8 +1,8 @@
 # wh-validate
 
-###项目介绍
+#项目介绍
 此项目实现图片验证码的功能
-###使用方法
+#使用方法
 - 将com.wh.validate.demo包中的所有代码copy到你的项目，完成相关依赖的导入（可参考此项目本身）。
 - 项目提供默认网址：/validate/image，来获取验证码图片。
 - 实现ImageCodePropertiesConfigurerAdapter接口并注册为bean，配置需要验证的url，可配置多个。                  
@@ -19,7 +19,7 @@ public class ImageCodePropertiesConfigurerAdapterTemp implements ImageCodeProper
 ```
 -  如果验证错误会返回json
 	{"error":403,"message":"验证码不匹配"}
-###自定义配置
+#自定义配置
 
  分两种情况：1.完全使用你自己的图片验证码样式。2，使用此项目图片验证样式，但是改变宽高，以及验证码字符数量和验证码过期时间。
 
