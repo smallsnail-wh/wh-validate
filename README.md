@@ -5,7 +5,8 @@
 ### 使用方法
 - 将com.wh.validate.demo包中的所有代码copy到你的项目，完成相关依赖的导入（可参考此项目本身）。
 - 项目提供默认网址：/validate/image，来获取验证码图片。
-- 实现ImageCodePropertiesConfigurerAdapter接口并注册为bean，配置需要验证的url，可配置多个。                  
+- 实现ImageCodePropertiesConfigurerAdapter接口并注册为bean，配置需要验证的url，可配置多个。  
+**注意**   验证请求中必须以 imageCode="XXXX"（XXXX为验证字符串），这样的参数形式传入。（若验证请求为post形式，数据格式必须为application/x-www-form-urlencoded）
 ```
 @Component
 public class ImageCodePropertiesConfigurerAdapterTemp implements ImageCodePropertiesConfigurerAdapter {
