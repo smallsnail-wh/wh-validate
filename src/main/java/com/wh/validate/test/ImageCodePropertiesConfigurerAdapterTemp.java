@@ -10,7 +10,7 @@ public class ImageCodePropertiesConfigurerAdapterTemp implements ImageCodeProper
 
 	@Override
 	public void imageCodePropertiesConfigure(ImageCodeDefaultProperties imageCodeDefaultProperties) {
-		imageCodeDefaultProperties.setSize(5).setHeight(50).setWidth(200).setUrl("/login","/logintest");
+		imageCodeDefaultProperties.setSize(5).setHeight(50).setWidth(200).setExpireIn(60).setUrl("/login","/logintest");
 	}
 
 }
