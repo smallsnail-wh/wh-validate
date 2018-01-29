@@ -1,4 +1,4 @@
-package com.wh.validate.test;
+/*package com.wh.validate.test;
 
 import org.springframework.stereotype.Component;
 
@@ -14,3 +14,4 @@ public class ImageCodePropertiesConfigurerAdapterTemp implements ImageCodeProper
 	}
 
 }
+*/
